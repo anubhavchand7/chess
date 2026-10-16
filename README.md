@@ -35,6 +35,7 @@ A feature-rich, high-performance, and 100% offline chess application built with 
   - 🌌 **Slate OLED**: High-contrast, cool monochromatic dark aesthetic.
   - 🪵 **Walnut Timber**: Warm mahogany and honey maple wood grain.
   - ⚡ **Cyberpunk Neon**: Radiant ultraviolet and electric cyan glow.
+  - 🩸 **Crimson Red & Black**: Dramatic obsidian black & fiery crimson red.
 - **Highlights & Indicators**:
   - Selected piece highlight.
   - Last move start and destination squares.

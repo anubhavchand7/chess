@@ -55,6 +55,70 @@ body.theme-neon {
   --border-glow: rgba(236, 72, 153, 0.4);
 }
 
+/* Theme: Crimson Red & Black (Obsidian & Crimson) */
+body.theme-crimson {
+  --bg-primary: #0a0b0e;
+  --bg-secondary: #13141a;
+  --bg-card: rgba(20, 22, 29, 0.85);
+  --bg-card-hover: rgba(30, 33, 44, 0.9);
+  --border-color: rgba(220, 38, 38, 0.22);
+  --border-glow: rgba(220, 38, 38, 0.5);
+  --accent-primary: #dc2626;
+  --accent-primary-hover: #b91c1c;
+
+  --sq-light: #9b1c28;
+  --sq-dark: #14151a;
+  --sq-highlight-from: rgba(245, 158, 11, 0.55);
+  --sq-highlight-to: rgba(239, 68, 68, 0.7);
+  --sq-check: rgba(255, 30, 30, 0.85);
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(220, 38, 38, 0.16) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(185, 28, 28, 0.1) 0%, transparent 50%);
+}
+
+body.theme-crimson .board-wrapper {
+  background: #0d0e13;
+  border: 1px solid rgba(220, 38, 38, 0.35);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85), 0 0 30px rgba(220, 38, 38, 0.2);
+}
+
+body.theme-crimson .square.light {
+  background: linear-gradient(135deg, #a8202d 0%, #851620 100%);
+}
+
+body.theme-crimson .square.dark {
+  background: linear-gradient(135deg, #1c1d24 0%, #111216 100%);
+}
+
+body.theme-crimson .square.dark .coord-file,
+body.theme-crimson .square.dark .coord-rank {
+  color: #ef4444;
+  opacity: 0.85;
+}
+
+body.theme-crimson .square.light .coord-file,
+body.theme-crimson .square.light .coord-rank {
+  color: #121316;
+  opacity: 0.85;
+}
+
+body.theme-crimson .square.dark .move-indicator {
+  background: rgba(255, 255, 255, 0.32);
+}
+
+body.theme-crimson .square.light .move-indicator {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+body.theme-crimson .move-indicator.capture {
+  border-color: rgba(255, 80, 80, 0.85);
+  box-shadow: 0 0 10px rgba(220, 38, 38, 0.6);
+}
+
+body.theme-crimson .chess-svg {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 1px rgba(255, 255, 255, 0.22));
+}
+
 * {
   margin: 0;
   padding: 0;
